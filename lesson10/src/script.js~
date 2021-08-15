@@ -6,7 +6,7 @@ import * as dat from 'dat.gui'
 
 //Debug
 const gui = new dat.GUI({ closed: true})
-gui.hide()
+//gui.hide()
 
 const parameters = {
 	color: 0xff0000,
