@@ -126,22 +126,22 @@ scene.add(spotLight)
 //const pointLightHelper = new THREE.PointLightHelper(pointLight, 0.2)
 //scene.add(pointLightHelper)
 
-const spotLightHelper = new THREE.SpotLightHelper(spotLight)
-scene.add(spotLightHelper)
+//const spotLightHelper = new THREE.SpotLightHelper(spotLight)
+//scene.add(spotLightHelper)
 
-window.requestAnimationFrame(() =>
-{
-	spotLightHelper.update()
-})
+//window.requestAnimationFrame(() =>
+//{
+//	spotLightHelper.update()
+//})
 
-const rectAreaLightHelper = new RectAreaLightHelper(rectAreaLight)
-scene.add(rectAreaLightHelper)
+//const rectAreaLightHelper = new RectAreaLightHelper(rectAreaLight)
+//scene.add(rectAreaLightHelper)
 
-window.requestAnimationFrame(() =>
-{
-	rectAreaLightHelper.position.copy(rectAreaLight.postion)
-	rectAreaLightHelper.update()
-})
+//window.requestAnimationFrame(() =>
+//{
+//	rectAreaLightHelper.position.copy(rectAreaLight.postion)
+//	rectAreaLightHelper.update()
+//})
 
 //Window size
 const sizes = {
